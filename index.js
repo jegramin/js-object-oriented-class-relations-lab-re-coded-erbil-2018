@@ -11,6 +11,9 @@ class Driver{
     this.id = ++driverId;
     store.drivers.push(this);
   }
+  trips(){
+    
+  }
 }
 
 let passengerId = 0;
