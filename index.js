@@ -12,7 +12,7 @@ class Driver{
     store.drivers.push(this);
   }
   trips(){
-    return store.trips[0,1];
+    return store.trips[id];
   }
 }
 
