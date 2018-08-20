@@ -8,7 +8,7 @@ let driverId = 0;
 class Driver{
   constructor(name){
     this.name = name;
-    this.id = ++driverId;
+    this.driverId = ++driverId;
     store.drivers.push(this);
   }
 }
@@ -17,7 +17,7 @@ let passengerId = 0;
 class Passenger{
   constructor(name){
     this.name = name;
-    this.id = ++passengerId;
+    this.passengerId = ++passengerId;
     store.passengers.push(this);
   }
 }
@@ -26,10 +26,10 @@ let tripId = 0;
 class Trip{
   constructor(name){
     this.name = name;
-    this.id = ++tripId;
+    this.tripId = ++tripId;
     store.trips.push(this);
   }
-  driverId(Driver){
+  driverId(driver){
     this.userId = user.id
   }
 }
