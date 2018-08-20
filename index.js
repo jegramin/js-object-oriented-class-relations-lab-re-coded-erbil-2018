@@ -11,6 +11,10 @@ class Driver{
     this.id = ++driverId;
     store.drivers.push(this);
   }
+  
+  passenger(){
+  return store.passengers[0];
+}
 }
 
 let passengerId = 0;
