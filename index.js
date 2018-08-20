@@ -30,8 +30,8 @@ class Passenger{
    trips(){
     return store.trips;
   }
-  driver(){
-  return store.drivers;
+  drivers(){
+  return store.drivers[0];
 }
 }
 
