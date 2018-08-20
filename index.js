@@ -23,7 +23,7 @@ class Passenger{
 }
 
 let tripId = 0;
-class Passenger{
+class Trip{
   constructor(name){
     this.name = name;
     this.id = ++tripId;
