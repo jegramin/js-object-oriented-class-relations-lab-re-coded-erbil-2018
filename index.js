@@ -46,11 +46,11 @@ class Trip{
   }
   
 passenger(){
-  return store.passengers[0];
+  return store.passengers;
 }
 
 driver(){
-  return store.drivers[0];
+  return store.drivers;
 }
 }
 
