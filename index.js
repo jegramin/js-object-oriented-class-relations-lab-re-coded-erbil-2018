@@ -29,6 +29,9 @@ class Trip{
     this.id = ++tripId;
     store.trips.push(this);
   }
+  setTrip(user){
+    this.userId = user.id
+  }
 }
 
 
