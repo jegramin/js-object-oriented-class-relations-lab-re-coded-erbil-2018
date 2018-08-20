@@ -3,8 +3,9 @@ let store = {
 }
 
 class Driver{
-  constructor(name){
+  constructor(name,id){
     this.name = name;
+    this.id = id;
     store.drivers.push(this);
   }
 }
