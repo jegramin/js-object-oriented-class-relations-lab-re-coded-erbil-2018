@@ -28,6 +28,7 @@ class Trip{
     this.name = name;
     this.id = ++tripId;
     this.driverId = driverId;
+    this.
     store.trips.push(this);
   }
 // driverId(){
