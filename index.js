@@ -30,7 +30,7 @@ class Trip{
     store.trips.push(this);
   }
  driverId(){
-  return this.driverId = drivers.id;
+   this.driverId = drivers.id;
  }
 }
 
