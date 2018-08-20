@@ -4,9 +4,9 @@ let store = {
 
 let id = 0;
 class Driver{
-  constructor(name,id){
+  constructor(name){
     this.name = name;
-    this.id = id;
+    this.id = ++id;
     store.drivers.push(this);
   }
 }
