@@ -32,7 +32,7 @@ class Trip{
     store.trips.push(this);
   }
 passenger(){
-  return store[1];
+  return store.passengers;
 }
 }
 
