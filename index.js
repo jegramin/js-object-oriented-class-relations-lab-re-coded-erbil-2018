@@ -29,7 +29,7 @@ class Trip{
     this.id = ++tripId;
     store.trips.push(this);
   }
-  setTrip(user){
+  driverId(Driver){
     this.userId = user.id
   }
 }
