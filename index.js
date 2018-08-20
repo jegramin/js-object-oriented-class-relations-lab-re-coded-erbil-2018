@@ -27,7 +27,7 @@ class Trip{
   constructor(name){
     this.name = name;
     this.id = ++tripId;
-    this.driverId = Driver.id;
+    this.driverId = drivers.id;
     store.trips.push(this);
   }
 // driverId(){
