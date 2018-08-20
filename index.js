@@ -14,6 +14,9 @@ class Driver{
   trips(){
     return store.trips;
   }
+  passengers(){
+    return store.passengers;
+  }
 }
 
 let passengerId = 0;
