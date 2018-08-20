@@ -11,4 +11,6 @@ class Driver{
   }
 }
 
-class 
+class Passenger{
+  constructor()
+}
